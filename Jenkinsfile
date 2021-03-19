@@ -3,7 +3,7 @@ def GIT_COMMIT_SHORT
 
 pipeline {
   environment {
-    registry = "susuhlaing-dmm/spring-rest-helloworld-jenkin"
+    registry = "susu11755/spring-rest-helloworld-jenkin"
     registryCredential = 'susu11755'
     dockerImage = ''
   }
