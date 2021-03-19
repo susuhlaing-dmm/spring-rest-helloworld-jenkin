@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/susuhlaing-dmm/spring-rest-helloworld-jenkin.git'
+        git 'https://github.com/zawthanoo/spring-rest-helloworld.git'
       }
     }
     
