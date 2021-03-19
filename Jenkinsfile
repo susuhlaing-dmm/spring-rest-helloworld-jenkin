@@ -3,8 +3,8 @@ def GIT_COMMIT_SHORT
 
 pipeline {
   environment {
-    registry = "zawthanoo/spring-rest-helloworld"
-    registryCredential = 'zto-dockerhub'
+    registry = "susuhlaing-dmm/spring-rest-helloworld-jenkin"
+    registryCredential = 'susu11755'
     dockerImage = ''
   }
   
@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/zawthanoo/spring-rest-helloworld.git'
+        git 'https://github.com/susuhlaing-dmm/spring-rest-helloworld-jenkin.git'
       }
     }
     
